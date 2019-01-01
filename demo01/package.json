@@ -1,0 +1,14 @@
+{
+  "name": "webpack-demo1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack -p"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "install": "^0.12.2"
+  }
+}
