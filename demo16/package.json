@@ -1,0 +1,10 @@
+{
+  "name": "demo16",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC"
+}

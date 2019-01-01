@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\apps\\node-v8.4.0-win-x64\\node.exe',
+1 verbose cli   'D:\\demo\\webpack\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'test\\' ]
+2 info using npm@2.15.12
+3 info using node@v8.4.0
+4 verbose stack Error: missing script: test\
+4 verbose stack     at run (D:\demo\webpack\node_modules\npm\lib\run-script.js:142:19)
+4 verbose stack     at D:\demo\webpack\node_modules\npm\lib\run-script.js:58:5
+4 verbose stack     at D:\demo\webpack\node_modules\npm\node_modules\read-package-json\read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (D:\demo\webpack\node_modules\npm\node_modules\read-package-json\read-json.js:320:45)
+4 verbose stack     at final (D:\demo\webpack\node_modules\npm\node_modules\read-package-json\read-json.js:354:3)
+4 verbose stack     at then (D:\demo\webpack\node_modules\npm\node_modules\read-package-json\read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (D:\demo\webpack\node_modules\npm\node_modules\read-package-json\read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (D:\demo\webpack\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:420:13)
+5 verbose cwd D:\demo\webpack\demo16
+6 error Windows_NT 10.0.17134
+7 error argv "C:\\apps\\node-v8.4.0-win-x64\\node.exe" "D:\\demo\\webpack\\node_modules\\npm\\bin\\npm-cli.js" "run" "test\\"
+8 error node v8.4.0
+9 error npm  v2.15.12
+10 error missing script: test\
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
